@@ -22,6 +22,11 @@ class cfgVehicles
 			{
 				displayName = "[Bro] Winter";
 				author = "Bromine";
+				materials[] =
+				{
+					"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_fuselage.rvmat",
+					"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_engine.rvmat"
+				};
 				textures[] =
 				{
 					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\Snow\uh60m_fuselage_co.paa",
@@ -72,6 +77,20 @@ class cfgVehicles
 				{
 					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\Orng\uh60m_fuselage_co.paa",
 					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\Orng\uh60m_engine_co.paa"
+				};
+			};
+			class Bro_BlkPaint: Bro_Winter
+			{
+				displayName = "[Bro] VIP Black Gold";
+				materials[] =
+				{
+					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\BlkPaint\uh60m_fuselage.rvmat",
+					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\BlkPaint\uh60m_engine.rvmat"
+				};
+				textures[] =
+				{
+					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\BlkPaint\uh60m_fuselage_co.paa",
+					"Bro_RHS_Vehicle_Skins\Bro_RHS60_Skins\BlkPaint\uh60m_engine_co.paa"
 				};
 			};
 		};
